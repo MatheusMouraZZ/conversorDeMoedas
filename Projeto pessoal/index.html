@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/js/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <title>Conversor</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Conversor de moedas "reativo"</h1>
+            <p>Conversor de moeda simples, destinado para a introdução de javascript</p>
+        </div>
+        <div class="conversor">
+            <div class="result hide">
+                <h3 id="converted-coin"></h3>
+            </div>  
+            <div class="conversor-inputs">
+                <label>
+                    R$<input placeholder="1,00" type="text" class="input" id="real">BR
+                </label>
+                <h2>Para:</h2>
+                <select id="choose-coin">
+                    <option value="USD" selected>Dólar dos Estados Unidos</option>
+                    <option value="JPY">Yene</option>
+                    <option value="EUR">Euro</option>
+                </select>
+            </div>
+        </div>    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
